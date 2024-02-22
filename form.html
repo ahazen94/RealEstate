@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .form-container{
+            display: block;
+        }
+        .color{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Exercise</h1>
+
+    <form class="container">
+        <input class="form-container" type="text" placeholder="Add product's name" required>
+        <input class="form-container" type="text" placeholder="Add a description" required>
+        <input class="form-container" type="number"placeholder="Add the price" required>
+        <div class="color">
+            <p>Select the color of your product:</p>
+            <input type="color">
+        </div>
+        <label>Select the payment method:</label>
+        <select required>
+            <option value="option1">--- Cash ---</option>
+            <option value="option2">--- Card ---</option>
+            <option value="option3">--- Paypal ---</option>
+        </select>
+        <button>Add</button>
+    <form>
+</body>
+</html>
