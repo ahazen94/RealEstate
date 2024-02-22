@@ -167,11 +167,15 @@ td,th{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.contact-div{
+    display: inline;
+}
 /*form*/
 .form-container{
     background-color: var(--secondary);
     padding: 2rem;
     border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 fieldset{
     border: 1px solid gray;
@@ -197,6 +201,9 @@ legend{
     padding: 3px;
     font-size: 1.6rem;
 
+}
+.form-control label{
+    display: inline-block;
 }
 /*footer*/
 .site-footer{
